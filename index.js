@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const {Triangle, Square, Circle} = require("./lib/shapes");
+const {Circle, Square, Triangle} = require("./lib/shapes");
 
 const questions = [
     {
@@ -14,6 +14,19 @@ const questions = [
         type: 'input',
         name: 'textColor',
         message: 'Enter text color.',
+    },
+
+    {
+        type: 'list',
+        name: 'svgShape',
+        message: 'What shape do you want your logo to be?',
+        choices: [circle, triangle, square],
+    },
+
+    {
+        type: 'input',
+        name: 'shapeColor',
+        message: 'Enter shape color.',
     },
 ];
 
