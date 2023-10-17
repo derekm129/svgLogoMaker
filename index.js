@@ -62,7 +62,7 @@ function createSVG(response) {
     return `
     <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">  
         ${shapeSVG}
-        <text x="20" y="50" fill="${textColor}" font-size="24">${characters}</text>
+        <text x="50" y="50" text-anchor="middle" alignment-baseline="middle" fill="${textColor}" font-size="24">${characters}</text>
     </svg>`;
     };
     
