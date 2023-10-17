@@ -14,6 +14,10 @@
 
 ![Screenshot](./assets/images/screenshot.png)
 
+Video Demonstration:
+
+https://drive.google.com/file/d/1Nzgw4B54JbPliFWN3FjgFfyUFBJolmYR/view
+
 ## Credits
 N/A
 
