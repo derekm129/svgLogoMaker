@@ -12,7 +12,7 @@
 ## Usage
 - Enter 'node index.js' in terminal to start the program. Answers questions from the prompt to generate an SVG Logo. Enter 'npm test' to run Jest.
 
-![Screenshot]()
+![Screenshot](./assets/images/screenshot.png)
 
 ## Credits
 N/A
