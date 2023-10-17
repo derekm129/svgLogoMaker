@@ -70,7 +70,7 @@ function createSVG(response) {
 
 function writeToFile(logo, outputPath) {
     fs.writeFileSync(outputPath, logo);
-    console.log('SVG file saved');
+    console.log('Generated logo.svg');
 };
 
 function init() {
