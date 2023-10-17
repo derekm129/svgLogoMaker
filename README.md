@@ -1,12 +1,21 @@
-- WHEN I am prompted for a shape
-- THEN I am presented with a list of shapes to choose from: circle, triangle, and square
+# SVG Logo Maker
 
-- WHEN I am prompted for the shape's color
-- THEN I can enter a color keyword (OR a hexadecimal number)
+## Description
+- My motivation for this project was to create an application that can generate SVG logos based off of user input.
+- I built this project using JavaScript, Node.js, Inquirer version 8.2.4, and Jest version 29.7.
+- This app allows the user to create an SVG logo and to select the color of the logo's shape and text.
+- I learned from making this application how to use constructors and how to run tests using Jest.
 
-- WHEN I have entered input for all the prompts
-- THEN an SVG file is created named `logo.svg`
-- AND the output text "Generated logo.svg" is printed in the command line
+## Installation
+- This application needs Node.js, Inquirer version 8.2.4, and Jest version 29.7 to work correctly.
 
-- WHEN I open the `logo.svg` file in a browser
-- THEN I am shown a 300x200 pixel image that matches the criteria I entered
+## Usage
+- Enter 'node index.js' in terminal to start the program. Answers questions from the prompt to generate an SVG Logo. Enter 'npm test' to run Jest.
+
+![Screenshot](./assets/images/screenshot.png)
+
+## Credits
+N/A
+
+## License
+MIT
